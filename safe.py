@@ -199,9 +199,9 @@ def list_files():
             connection.close()
 
 def send_otp(email):
-    sender_email = "##Enter your email here##"
+    sender_email = "vault.suuport@gmail.com"
     receiver_email = email
-    password = "##Enter Your Password Here##"
+    password = "Saikat12#"
     message = MIMEMultipart()
     message["Subject"] = "OTP For password reset in Python CLI Vault (Check your Spam folder too): "
     message["From"] = sender_email
